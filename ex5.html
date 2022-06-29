@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <script type="text/java" src="js/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="img/icon-how (2).ico" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <title>How to do?</title>
+    <!--Шрифты-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body,
+        html {
+            height: 100%;
+        }
+
+        .parallax {
+            /* The image used */
+            background-image: url('img/bg0.jpg');
+
+            /* Full height */
+            height: 100%;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Прелоадер -->
+    <div class="preloader">
+        <div class="preloader__row">
+            <div class="preloader__item"></div>
+            <div class="preloader__item"></div>
+        </div>
+    </div>
+
+    <!-- Шапка -->
+    <header class="headeer">
+        <nav class="container block">
+            <div class="btn-block" align="right">
+                    <nav class="btn"><a href="ex7.html" class="head-link"> CSS </a> </nav>
+                <nav class="btn"><a href="index.html" class="head-link"> УЧЕБНИК </a> </nav>
+                <nav class="btn" style="margin-bottom: 15px;">
+                    <a class="nav-link dropdown-toggle head-link" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        АВТОРЫ
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li class="dropdown-header">Код, автор сайта</li>
+                          <a class="dropdown-item" href="https://vk.com/dankkaaa" target="_blank">dankkaaa</a>
+                          <li class="dropdown-header">Авторы идеи</li>
+                          <a class="dropdown-item" href="https://vk.com/kjcxd" target="_blank">kjcxd</a>
+                          <a class="dropdown-item" href="https://vk.com/id255210229" target="_blank">Андрей</a>
+                        </div>
+                </nav>
+
+            </div>
+        </nav>
+        </div>
+        </div>
+    </header>
+    <!-- БГ -->
+    <div class="parallax hue logo">
+        <br /><br /><br /><br /><br />
+        <div class="logotype">
+            <p style="font-size: 28px; padding-top: 5px; padding-bottom: 5px;">How to do?</p>
+        </div>
+
+        <!-- Main -->
+    </div>
+    <div style="background-color: #e5e5e5; margin-top: 275px;">
+        <div class="main main-raised">
+            <div class="section">
+                <div class="container">
+                    <div style="padding-bottom:25px" class="row">
+                        <br>
+                        <p style="font-size: 35px;">Работа с картинками.</p>
+                        <p>Для работы с картинками нам поможет тэг <b>&lt;img&gt;</b> который вставляет на сайт
+                            картинку, которую можно использовать в любых целях.</p>
+
+                        <div class="primer" style="padding-top: 15px;margin-bottom: 35px;">
+                            <samp>
+                                &lt;html&gt;<br />
+                                &lt;head&gt;<br />
+                                &lt;title&gt;Картинка&lt;/title&gt;<br />
+                                &lt;/head&gt;<br />
+                                &lt;body&gt;<br />
+                                &lt;p&gt;<br />
+                                &lt;img src="roflan.jpg"&gt;<br />
+                                &lt;/p&gt;<br />
+
+                                &lt;/body&gt;<br />
+                                &lt;/html&gt;<br />
+                            </samp>
+                            <br />
+                            <a href="html/primer1str5.html" target="_blank" style="margin-top: 15px;">Пример</a>
+                            <br /><br />
+                        </div>
+
+                        <p>В src вы показываете путь к картинке в папке где лежит ваш html-документ. Вы можете класть
+                            все картинки в отдельную папку, её принято называют img.</p>
+
+                        <div class="primer" style="padding-top: 15px;margin-bottom: 35px;">
+                            <samp>
+                                &lt;html&gt;<br />
+                                &lt;head&gt;<br />
+                                &lt;title&gt;Картинка&lt;/title&gt;<br />
+                                &lt;/head&gt;<br />
+                                &lt;body&gt;<br />
+                                &lt;p&gt;<br />
+                                &lt;img src="img/roflan.jpg"&gt;<br />
+                                &lt;/p&gt;<br />
+
+                                &lt;/body&gt;<br />
+                                &lt;/html&gt;<br />
+                            </samp>
+
+                            <br /><br />
+                        </div>
+
+                        <!-- Страницы -->
+                        <br />
+                        <div style="background-color: #e5e5e5;" class=" stranici">
+                            <a class="nav-link dropdown-toggle head-link" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Страница
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="index.html" title="Введение">1. Введение</a>
+                                <a class="dropdown-item" href="ex2.html">2. Первый код</a>
+                                <a class="dropdown-item" href="ex3.html">3. Объяснение главной структуры</a>
+                                <a class="dropdown-item" href="ex4.html">4. Работа с текстом</a>
+                                <a class="dropdown-item" href="ex5.html">5. Работа с картинками</a>
+                                <a class="dropdown-item" href="ex6.html">6. Работа с ссылками</a>
+                                <a class="dropdown-item" href="ex7.html">7. Пишем сайт изучая CSS</a>
+                                <a class="dropdown-item" href="ex8.html">8. Первые этапы CSS</a>
+                                <a class="dropdown-item" href="ex9.html">9. Делаем сайт более красивым</a>
+                                <a class="dropdown-item" href="ex10.html">10. Итоговая версия сайта, фишки и советы</a>
+                              </div>
+                        </div>
+                    </div style="margin-bottom:25px">
+                </div>
+                <br>
+            </div>
+        </div>
+        <br />
+        <!-- Footer -->
+        <div class="footer">
+                <p style="padding-top: -100px;"> How to do? - 2020</p>
+                <p style="margin-top: -75px;margin-bottom: -30px;"><a href="https://vk.com/dankkaaa" title="ВК" target="_blank"> dankkaaa</a></p>
+            <br />
+        
+            </div>
+
+
+    </div>
+    <br />
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script>
+        window.onload = function () {
+            document.body.classList.add('loaded_hiding');
+            window.setTimeout(function () {
+                document.body.classList.add('loaded');
+                document.body.classList.remove('loaded_hiding');
+            }, 1000);
+        }
+    </script>
+    <script>
+        $('.dropdown-toggle').click(function (e) {
+            if ($(document).width() > 768) {
+                e.preventDefault();
+                var url = $(this).attr('href');
+                if (url !== '#') {
+                    window.location.href = url;
+                }
+            }
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.nivo-lightbox a').nivoLightbox({
+                effect: 'fade'
+            });
+        });
+    </script>
+</body>
+
+</html>

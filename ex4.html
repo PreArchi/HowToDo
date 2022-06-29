@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <script type="text/java" src="js/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="img/icon-how (2).ico" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <title>How to do?</title>
+    <!--Шрифты-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body,
+        html {
+            height: 100%;
+        }
+
+        .parallax {
+            /* The image used */
+            background-image: url('img/bg0.jpg');
+
+            /* Full height */
+            height: 100%;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Прелоадер -->
+    <div class="preloader">
+        <div class="preloader__row">
+            <div class="preloader__item"></div>
+            <div class="preloader__item"></div>
+        </div>
+    </div>
+
+    <!-- Шапка -->
+    <header class="headeer">
+        <nav class="container block">
+            <div class="btn-block" align="right">
+                    <nav class="btn"><a href="ex7.html" class="head-link"> CSS </a> </nav>
+                <nav class="btn"><a href="index.html" class="head-link"> УЧЕБНИК </a> </nav>
+                <nav class="btn" style="margin-bottom: 15px;">
+                    <a class="nav-link dropdown-toggle head-link" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        АВТОРЫ
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li class="dropdown-header">Код, автор сайта</li>
+                          <a class="dropdown-item" href="https://vk.com/dankkaaa" target="_blank">dankkaaa</a>
+                          <li class="dropdown-header">Авторы идеи</li>
+                          <a class="dropdown-item" href="https://vk.com/kjcxd" target="_blank">kjcxd</a>
+                          <a class="dropdown-item" href="https://vk.com/id255210229" target="_blank">Андрей</a>
+                        </div>
+                </nav>
+
+            </div>
+        </nav>
+        </div>
+        </div>
+    </header>
+    <!-- БГ -->
+    <div class="parallax hue logo">
+        <br /><br /><br /><br /><br />
+        <div class="logotype">
+            <p style="font-size: 28px; padding-top: 5px; padding-bottom: 5px;">How to do?</p>
+        </div>
+
+        <!-- Main -->
+    </div>
+    <div style="background-color: #e5e5e5; margin-top: 275px;">
+        <div class="main main-raised">
+            <div class="section">
+                <div class="container">
+                    <div style="padding-bottom:25px" class="row">
+                        <br>
+                        <p style="font-size: 35px;">Работа с текстом.</p>
+                        <p>Тут мы будем изучать работу с текстом с помощью тэга <b>&lt;style&gt;</b> для правильности, и
+                            для более быстрого изучения css (В этом тэге используются стили css)</p>
+
+                        <p> Первый стиль меняет размер шрифта, font-size. </p>
+
+                        <div class="primer" style="padding-top: 15px;">
+                            <samp>
+                                &lt;html&gt;<br />
+                                &lt;head&gt;<br />
+                                &lt;title&gt;Style&lt;/title&gt;<br />
+                                &lt;/head&gt;<br />
+                                &lt;body&gt;<br />
+                                &lt;p style=":font-size: 23px"&gt;<br />
+                                <b style="font-size: 23px;">Теперь этот текст стал 25px </b> <br />
+                                &lt;/p&gt;<br />
+                                &lt;/body&gt;<br />
+                                &lt;/html&gt;<br />
+                            </samp>
+
+
+                            <br /><br />
+                        </div>
+
+                        <p>Следующий стиль будет менять цвет текста, на любой, какой вы захотите, color.</p>
+
+                        <div class="primer" style="padding-top: 15px;">
+                            <samp>
+                                &lt;html&gt;<br />
+                                &lt;head&gt;<br />
+                                &lt;title&gt;Style&lt;/title&gt;<br />
+                                &lt;/head&gt;<br />
+                                &lt;body&gt;<br />
+                                &lt;p style=":color: red;"&gt;<br />
+                                <b style="color: red;">Теперь этот текст стал красным </b> <br />
+                                &lt;/p&gt;<br />
+                                &lt;p style=":color: blue;"&gt;<br />
+                                <b style="color: blue;">Теперь этот текст стал синим </b> <br />
+                                &lt;/p&gt;<br />
+                                &lt;/body&gt;<br />
+                                &lt;/html&gt;<br />
+                            </samp>
+                            <br /><br />
+                        </div>
+
+                        <p>Также вы можете менять цвет фона, вы можете сочитать любые стили друг с другом. </p>
+
+                        <div class="primer" style="padding-top: 15px;">
+                            <samp>
+                                &lt;html&gt;<br />
+                                &lt;head&gt;<br />
+                                &lt;title&gt;Style&lt;/title&gt;<br />
+                                &lt;/head&gt;<br />
+                                &lt;body&gt;<br />
+                                &lt;p style=":color: blue; background-color: yellow;"&gt;<br />
+                                <b style="color: blue; background-color: yellow; ">Теперь этот текст стал синим с жёлтым
+                                    фоном. </b> <br />
+                                &lt;/p&gt;<br />
+
+                                &lt;/body&gt;<br />
+                                &lt;/html&gt;<br />
+                            </samp>
+
+
+                            <br /><br />
+
+                        </div>
+
+                        <p>Вернёмся к тэгам, с помощью них мы можем сделать текст полужирным, курсивным, зачёркнутым и
+                            т.д. </p>
+
+                        <div class="primer" style="padding-top: 15px;margin-bottom: 35px;">
+                            <samp>
+                                &lt;html&gt;<br />
+                                &lt;head&gt;<br />
+
+
+
+                                &lt;title&gt;Style&lt;/title&gt;<br />
+                                &lt;/head&gt;<br />
+                                &lt;body&gt;<br />
+                                &lt;p&gt;<br />
+
+                                &lt;b&gt; <b>Полужирный</b> &lt;/b&gt; <br />
+                                &lt;i&gt; <i>Курсив</i> &lt;/i&gt;<br />
+                                &lt;u&gt; <u>Подчёкнутый</u> &lt;/u&gt; <br />
+                                &lt;s&gt; <s>Зачёркнутый</s> &lt;/s&gt; <br />
+                                &lt;/p&gt;<br />
+
+                                &lt;/body&gt;<br />
+                                &lt;/html&gt;<br />
+                            </samp>
+
+
+                            <br /><br />
+                        </div>
+
+
+                        <!-- Страницы -->
+                        <br />
+                        <div style="background-color: #e5e5e5;" class=" stranici">
+                            <a class="nav-link dropdown-toggle head-link" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Страница
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="index.html" title="Введение">1. Введение</a>
+                                <a class="dropdown-item" href="ex2.html">2. Первый код</a>
+                                <a class="dropdown-item" href="ex3.html">3. Объяснение главной структуры</a>
+                                <a class="dropdown-item" href="ex4.html">4. Работа с текстом</a>
+                                <a class="dropdown-item" href="ex5.html">5. Работа с картинками</a>
+                                <a class="dropdown-item" href="ex6.html">6. Работа с ссылками</a>
+                                <a class="dropdown-item" href="ex7.html">7. Пишем сайт изучая CSS</a>
+                                <a class="dropdown-item" href="ex8.html">8. Первые этапы CSS</a>
+                                <a class="dropdown-item" href="ex9.html">9. Делаем сайт более красивым</a>
+                                <a class="dropdown-item" href="ex10.html">10. Итоговая версия сайта, фишки и советы</a>
+                              </div>
+                        </div>
+                    </div style="margin-bottom:25px">
+                </div>
+                <br>
+            </div>
+        </div>
+        <br />
+        <!-- Footer -->
+        <div class="footer">
+                <p style="padding-top: -100px;"> How to do? - 2020</p>
+                <p style="margin-top: -75px;margin-bottom: -30px;"><a href="https://vk.com/dankkaaa" title="ВК" target="_blank"> dankkaaa</a></p>
+            <br />
+        
+            </div>
+
+
+    </div>
+    <br />
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script>
+        window.onload = function () {
+            document.body.classList.add('loaded_hiding');
+            window.setTimeout(function () {
+                document.body.classList.add('loaded');
+                document.body.classList.remove('loaded_hiding');
+            }, 1000);
+        }
+    </script>
+    <script>
+        $('.dropdown-toggle').click(function (e) {
+            if ($(document).width() > 768) {
+                e.preventDefault();
+                var url = $(this).attr('href');
+                if (url !== '#') {
+                    window.location.href = url;
+                }
+            }
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.nivo-lightbox a').nivoLightbox({
+                effect: 'fade'
+            });
+        });
+    </script>
+</body>
+
+</html>
