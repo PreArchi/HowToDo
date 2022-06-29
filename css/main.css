@@ -1,0 +1,302 @@
+html,
+body {
+    background-color: #e5e5e5;
+    text-decoration: none !important;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+/*шапка*/
+.headeer {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px;
+    z-index: 9999;
+
+}
+
+/*footer*/
+
+.footer {
+    background: linear-gradient(to right, #ffffff 40%, #d8dcff 100%);
+    width: 70%;
+    border-radius: 0 35px 35px 0;
+    text-align: center;
+    box-align: right;
+    box-shadow: 0px 2px 4px 2px rgba(36, 36, 36, 0.356);
+    transition: 0.7s;
+}
+
+.footer:hover {
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px;
+    width: 71%;
+}
+
+::-webkit-scrollbar-button {
+    background-image: url('');
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 0px
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ecedee
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-color: #6e6e6e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #202020;
+}
+
+::-webkit-resizer {
+    background-image: url('');
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 0px
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+img:hover {
+    opacity: 85%;
+}
+
+
+
+@keyframes hue {
+    from {
+        filter: hue-rotate(0deg);
+    }
+
+    to {
+        filter: hue-rotate(-360deg);
+    }
+}
+
+.hue {
+    animation: hue 10s infinite linear;
+}
+
+
+
+div {
+    display: block;
+}
+
+.btn {
+    height: 30px;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.head-link {
+    color: black !important;
+    transition: 0.2s !important;
+}
+
+.head-link:hover {
+    color: rgb(255, 46, 46) !important;
+}
+
+
+
+p {
+    padding: 30px;
+}
+
+.main-raised {
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.2) 0px 8px 10px -5px;
+    margin: -350px 30px 0px;
+    border-radius: 6px;
+}
+
+
+
+
+.main {
+    position: relative;
+    z-index: 3;
+    background: rgb(255, 255, 255);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.logo {
+    padding: 3em 0;
+    text-align: center;
+    color: white;
+
+
+}
+
+.primer {
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+    transition: 1s;
+    padding-left: 90px;
+    padding-right: 390px;
+    box-shadow: 3px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+.primer:hover {
+    padding-left: 100px;
+    padding-right: 400px;
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2)
+}
+
+.image-body {
+    margin-left: 400px;
+}
+
+.stranici {
+    text-align: center;
+    padding-left: 490px;
+    padding-right: 490px;
+    padding-top: 1px;
+    padding-bottom: 7px;
+    border-radius: 20px;
+    transition: 0.6s;
+    box-shadow: 2px 4px 1px rgba(49, 49, 49, 0.308);
+}
+
+.stranici:hover {
+    padding-left: 500px;
+    padding-right: 500px;
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 3px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.logotype {
+    background-color: white;
+    margin-left: 630px;
+    margin-right: 630px;
+    border-radius: 5px;
+    color: rgb(34, 34, 34);
+    box-shadow: 8px 10px 1px rgba(0, 0, 0, 0.1);
+    cursor: default;
+
+    transition: 0.7s;
+}
+
+.logotype:hover {
+    margin-left: 700px;
+    margin-right: 700px;
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+    color: rgb(255, 46, 46)
+}
+
+.html {
+    width: 190px;
+    transition: 0.5s;
+}
+
+.html:hover {
+    width: 200px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.212);
+}
+
+@media only screen and (min-width: 768px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+}
+
+.work-grid {
+    padding: 1.5px;
+}
+
+.work-grid img:hover {
+    opacity: 0.6;
+}
+
+.preloader {
+    /*фиксированное позиционирование*/
+    position: fixed;
+    /* координаты положения */
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    /* фоновый цвет элемента */
+    background: #e0e0e0;
+    /* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
+    z-index: 1001;
+}
+
+.preloader__row {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-align: center;
+    animation: preloader-rotate 2s infinite linear;
+}
+
+.preloader__item {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    background-color: #337ab7;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    animation: preloader-bounce 2s infinite ease-in-out;
+}
+
+.preloader__item:last-child {
+    top: auto;
+    bottom: 0;
+    animation-delay: -1s;
+}
+
+@keyframes preloader-rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes preloader-bounce {
+
+    0%,
+    100% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+}
+
+.loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+}
+
+.loaded .preloader {
+    display: none;
+}
